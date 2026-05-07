@@ -1,0 +1,1 @@
+"""Core package for pipeline configuration, utilities, and transformer registry."""
