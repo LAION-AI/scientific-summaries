@@ -1,1 +1,7 @@
-<pre> ```bash python -u main_pipeline.py \ --out-dir $OUT_DIR \ --cache-dir $CACHE_DIR \ --num-proc 120 \ --batch-size 5000 \ --max-shards 30 ``` </pre>
+```bash
+python -u main_pipeline.py \
+    --out-dir $OUT_DIR \
+    --cache-dir $CACHE_DIR \
+    --num-proc 120 \
+    --batch-size 5000 \
+    --max-shards 30
